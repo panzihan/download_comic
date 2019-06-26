@@ -11,7 +11,7 @@ urllib3.disable_warnings()
 http = urllib3.PoolManager()
 
 headers = {
-    'Referer': 'http://images.dmzj.com/',
+    'Referer': 'https://images.dmzj.com/',
     'Host': 'imgzip.dmzj.com',
     'Connection': 'Keep-Alive',
     'User-Agent': 'Mozilla/5.0 (Linux; U; Android 8.0.0; zh-cn; MI 6 Build/OPR1.170623.027) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1',
